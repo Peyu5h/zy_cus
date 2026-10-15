@@ -1,0 +1,12 @@
+{
+  "file": "DU-08.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "REMINDER",
+      "reason": "The document presents itself as a \"Mahnung\" (payment reminder / dunning notice), references prior documents and balances, and is not a bill to be booked as a new payable."
+    }
+  ],
+  "derived": [],
+  "flags": []
+}

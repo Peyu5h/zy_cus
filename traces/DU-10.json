@@ -1,0 +1,38 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 33.8,
+      "input_tokens": 5719,
+      "cached_tokens": 0,
+      "output_tokens": 2558,
+      "reasoning_tokens": 2040,
+      "pages": [
+        "Credit note / supplier credit memo for returned or failed delivery goods; one payable"
+      ],
+      "printed": [
+        "6",
+        "20",
+        "457.24",
+        "2743.44",
+        "2",
+        "20",
+        "743.35",
+        "1486.70",
+        "4230.14",
+        "846.03",
+        "5076.17",
+        "30"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes GB_200_VAT, GB_200_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 36.7,
+      "input_tokens": 5719,
+      "cached_tokens": 0,
+      "output_tokens": 3077,
+      "reasoning_tokens": 2611,
+      "pages": [
+        "1-page supplier invoice"
+      ],
+      "printed": [
+        "12",
+        "600.00",
+        "7200.00",
+        "648.00",
+        "7848.00",
+        "7",
+        "549.36",
+        "8397.36",
+        "3",
+        "235.44",
+        "8161.92"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes TH_070_VAT, TH_WHT_003"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

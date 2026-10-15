@@ -1,0 +1,35 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 35.7,
+      "input_tokens": 5719,
+      "cached_tokens": 2816,
+      "output_tokens": 2556,
+      "reasoning_tokens": 2160,
+      "pages": [
+        "invoice"
+      ],
+      "printed": [
+        "18533",
+        "1",
+        "479.28",
+        "1",
+        "-0.01",
+        "479.27",
+        "24",
+        "115.03",
+        "594.30"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes EST_240_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

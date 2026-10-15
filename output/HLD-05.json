@@ -1,0 +1,367 @@
+{
+  "file": "HLD-05.pdf",
+  "payables": [
+    {
+      "invoice_number": "7769922058",
+      "invoice_date": "2026-06-12",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "",
+      "supplier": {
+        "name": "Northwind Support Services PT Unipessoal, Lda",
+        "supplier_id": "",
+        "address": "Parnu mnt 224\nPortugal",
+        "vat_id": "PT668715865"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "3800148153",
+      "po_id": "",
+      "gross_total": "1037.94",
+      "subtotal": "835.27",
+      "total_tax_amount": "176.87",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "88.33",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "SAGRES Branca Gfa Tab 6x1L PT",
+          "item_type": "GOODS",
+          "uom": "TAB",
+          "quantity": "40",
+          "unit_price": "14.76",
+          "total": "590.40",
+          "discount": "",
+          "discount_percentage": "54.080",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "73.03",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "HEINEKEN Barril OW 5L PT",
+          "item_type": "GOODS",
+          "uom": "BAR",
+          "quantity": "6",
+          "unit_price": "24.53",
+          "total": "147.18",
+          "discount": "",
+          "discount_percentage": "61.240",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "14.79",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "SAGRES Branca Gfa Tab 4(6x25cl) PT 201a",
+          "item_type": "GOODS",
+          "uom": "TAB",
+          "quantity": "1",
+          "unit_price": "24.96",
+          "total": "24.96",
+          "discount": "",
+          "discount_percentage": "63.500",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "2.36",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "SAGRES Branca Gfa Cxa 20x25cl PT 201a",
+          "item_type": "GOODS",
+          "uom": "CRT",
+          "quantity": "9",
+          "unit_price": "20.80",
+          "total": "187.20",
+          "discount": "",
+          "discount_percentage": "66.290",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "16.50",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "CASTELLO Original Gfa SW 4(6x25cl) 404a",
+          "item_type": "GOODS",
+          "uom": "PAK",
+          "quantity": "7",
+          "unit_price": "20.40",
+          "total": "142.80",
+          "discount": "",
+          "discount_percentage": "60.530",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "13",
+              "tax_amount": "7.33",
+              "tax_type_code": "PT_130_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "LUSO PET SW 6x1,5L SDR",
+          "item_type": "GOODS",
+          "uom": "PAK",
+          "quantity": "27",
+          "unit_price": "6.72",
+          "total": "181.44",
+          "discount": "",
+          "discount_percentage": "65.110",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "13",
+              "tax_amount": "8.23",
+              "tax_type_code": "PT_130_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Depósito SDR",
+          "item_type": "GOODS",
+          "uom": "UND",
+          "quantity": "162",
+          "unit_price": "0.10",
+          "total": "16.20",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "LUSO PET SW 4(6x50cl) SDR",
+          "item_type": "GOODS",
+          "uom": "PAK",
+          "quantity": "4",
+          "unit_price": "14.64",
+          "total": "58.56",
+          "discount": "",
+          "discount_percentage": "44.040",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "13",
+              "tax_amount": "4.26",
+              "tax_type_code": "PT_130_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Depósito SDR",
+          "item_type": "GOODS",
+          "uom": "UND",
+          "quantity": "96",
+          "unit_price": "0.10",
+          "total": "9.60",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "DECVAKUGZK Gfa Cxa 4(6x33cl) ES",
+          "item_type": "GOODS",
+          "uom": "CRT",
+          "quantity": "1",
+          "unit_price": "48.00",
+          "total": "48.00",
+          "discount": "",
+          "discount_percentage": "56.600",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "5.41",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "HEINEKEN Gfa Cxa 18x25cl PT",
+          "item_type": "GOODS",
+          "uom": "CRT",
+          "quantity": "4",
+          "unit_price": "18.72",
+          "total": "74.88",
+          "discount": "",
+          "discount_percentage": "57.150",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "8.38",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "HEINEKEN Gfa Tab 4(6x25cl) PT",
+          "item_type": "GOODS",
+          "uom": "TAB",
+          "quantity": "7",
+          "unit_price": "24.96",
+          "total": "174.72",
+          "discount": "",
+          "discount_percentage": "53.930",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "20.85",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "SAGRES Branca Gfa SW 2(10x25cl) PT 201a",
+          "item_type": "GOODS",
+          "uom": "PAK",
+          "quantity": "8",
+          "unit_price": "20.80",
+          "total": "166.40",
+          "discount": "",
+          "discount_percentage": "63.510",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "IVA",
+              "tax_rate": "23",
+              "tax_amount": "15.73",
+              "tax_type_code": "PT_230_IVA"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        }
+      ]
+    }
+  ],
+  "declined": [],
+  "derived": [
+    {
+      "payable": 0,
+      "path": "line_items[0].taxes[0].tax_amount",
+      "expr": "317.51 * 23 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[1].taxes[0].tax_amount",
+      "expr": "64.31 * 23 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[2].taxes[0].tax_amount",
+      "expr": "10.27 * 23 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[3].taxes[0].tax_amount",
+      "expr": "71.75 * 23 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[4].taxes[0].tax_amount",
+      "expr": "56.36 * 13 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[5].taxes[0].tax_amount",
+      "expr": "63.30 * 13 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[7].taxes[0].tax_amount",
+      "expr": "32.77 * 13 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[9].taxes[0].tax_amount",
+      "expr": "23.51 * 23 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[10].taxes[0].tax_amount",
+      "expr": "36.45 * 23 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[11].taxes[0].tax_amount",
+      "expr": "90.64 * 23 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[12].taxes[0].tax_amount",
+      "expr": "68.40 * 23 / 100"
+    },
+    {
+      "payable": 0,
+      "path": "gross_total",
+      "expr": "1012.14 + 25.80"
+    }
+  ],
+  "flags": [
+    {
+      "payable": 0,
+      "message": "The document does not show an explicit final total payable; owed amount is supported as Sub-Total c/ IVA 1012.14 plus Depósito SDR 25.80 = 1037.94."
+    },
+    {
+      "payable": 0,
+      "message": "Currency is not legible on the provided pages."
+    }
+  ]
+}

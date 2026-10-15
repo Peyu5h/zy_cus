@@ -1,0 +1,16 @@
+{
+  "file": "DU-09.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "FORM",
+      "reason": "Internal Donations and Sponsorship Form for approval of a sponsorship/contribution, not a supplier invoice or bill requesting payment."
+    },
+    {
+      "doc_type": "EMAIL",
+      "reason": "Internal email forwarding the form; correspondence only, not a payable document."
+    }
+  ],
+  "derived": [],
+  "flags": []
+}

@@ -1,0 +1,24 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 9.9,
+      "input_tokens": 18156,
+      "cached_tokens": 0,
+      "output_tokens": 417,
+      "reasoning_tokens": 251,
+      "pages": [
+        "Estimate #EST-259684 from Kingsley Supply LIMITED to CASH CUSTOMER - FedEx / Northwind HOLDINGS",
+        "Blank page",
+        "Blank page",
+        "ICUMS Duty Calculator page 1 of 3",
+        "ICUMS ITEM unit detail page 2 of 3",
+        "ICUMS ITEM unit detail page 3 of 3"
+      ],
+      "printed": [],
+      "signals": [],
+      "done": true
+    }
+  ]
+}

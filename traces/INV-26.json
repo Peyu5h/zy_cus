@@ -1,0 +1,20 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 9.9,
+      "input_tokens": 8300,
+      "cached_tokens": 2816,
+      "output_tokens": 497,
+      "reasoning_tokens": 375,
+      "pages": [
+        "Sales quotation / sales document page with item lines and total 873.53 MYR",
+        "Continuation page with amount in words, SST amount specification, and payment notes for the same sales quotation"
+      ],
+      "printed": [],
+      "signals": [],
+      "done": true
+    }
+  ]
+}

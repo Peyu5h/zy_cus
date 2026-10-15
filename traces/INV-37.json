@@ -1,0 +1,34 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 106.5,
+      "input_tokens": 6627,
+      "cached_tokens": 2816,
+      "output_tokens": 6986,
+      "reasoning_tokens": 6327,
+      "pages": [
+        "Invoice - utilities reimbursement"
+      ],
+      "printed": [
+        "5568",
+        "17816",
+        "1570.37",
+        "266.10",
+        "0.0575",
+        "416.65",
+        "122.00",
+        "2487.73"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -, -, -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

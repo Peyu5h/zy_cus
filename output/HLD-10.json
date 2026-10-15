@@ -1,0 +1,309 @@
+{
+  "file": "HLD-10.pdf",
+  "payables": [
+    {
+      "invoice_number": "",
+      "invoice_date": "2026-05-07",
+      "due_date": "2026-06-04",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Speedwell Estonia AS",
+        "supplier_id": "",
+        "address": "High Street 36\n75310 Harju maakond\nEesti",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "254.52",
+      "subtotal": "223.98",
+      "total_tax_amount": "30.54",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "KM",
+          "tax_rate": "",
+          "tax_amount": "0.01",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "STK-EE003-26-00182 standard service nondoc",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "65.26",
+          "total": "65.26",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code B",
+              "tax_rate": "0.00",
+              "tax_amount": "0.00",
+              "tax_type_code": "EST_000_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00182 FUEL",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "30.67",
+          "total": "30.67",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code B",
+              "tax_rate": "0.00",
+              "tax_amount": "0.00",
+              "tax_type_code": "EST_000_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00182 PLUS -",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "0.80",
+          "total": "0.80",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code B",
+              "tax_rate": "0.00",
+              "tax_amount": "0.00",
+              "tax_type_code": "EST_000_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00158 standard service nondoc",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "35.41",
+          "total": "43.91",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "8.50",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00158 FUEL",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "12.92",
+          "total": "16.02",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "3.10",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00158 PLUS -",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "0.68",
+          "total": "0.84",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "0.16",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00180 standard service nondoc",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "25.18",
+          "total": "31.22",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "6.04",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00180 PLUS -",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "0.16",
+          "total": "0.20",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "0.04",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00180 FUEL",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "9.25",
+          "total": "11.47",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "2.22",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00187 standard service nondoc",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "31.77",
+          "total": "39.39",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "7.62",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00187 FUEL",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "11.20",
+          "total": "13.89",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "2.69",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "STK-EE003-26-00187 PLUS -",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "0.68",
+          "total": "0.84",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "KM / code A",
+              "tax_rate": "24.00",
+              "tax_amount": "0.16",
+              "tax_type_code": "EST_240_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        }
+      ]
+    }
+  ],
+  "declined": [],
+  "derived": [],
+  "flags": [
+    {
+      "payable": 0,
+      "message": "Invoice number is not legible in the provided images; left blank. Supplier VAT ID, IBAN, and buyer address are also not legible/fully visible and are left blank."
+    },
+    {
+      "payable": 0,
+      "message": "The document includes a separate VAT rounding adjustment of 0.01 ('UMARDAMINE') shown in the KM column. Shipment taxes total 30.53 and the header tax adjustment brings printed total VAT to 30.54."
+    }
+  ]
+}

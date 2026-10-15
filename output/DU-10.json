@@ -1,0 +1,87 @@
+{
+  "file": "DU-10.pdf",
+  "payables": [
+    {
+      "invoice_number": "5900366703",
+      "invoice_date": "2026-04-15",
+      "due_date": "2026-05-15",
+      "invoice_type": "CREDIT_MEMO",
+      "currency": "GBP",
+      "supplier": {
+        "name": "Blackpine Consulting Limited",
+        "supplier_id": "",
+        "address": "Parmu mnt 50\nBahnhofstrasse 65\nChippenham\nSN14 0GF",
+        "vat_id": "GB447324473"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_30",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "5076.17",
+      "subtotal": "4230.14",
+      "total_tax_amount": "846.03",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "4582314 Logitech Tap Scheduler Touch Controller Ref 952-000091",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "6",
+          "unit_price": "457.24",
+          "total": "2743.44",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT",
+              "tax_rate": "20",
+              "tax_amount": "",
+              "tax_type_code": "GB_200_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "4541892 Logitech Tap Touch Controller Cat5e Kit Ref 939-001950",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "2",
+          "unit_price": "743.35",
+          "total": "1486.70",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "VAT",
+              "tax_name": "VAT",
+              "tax_rate": "20",
+              "tax_amount": "",
+              "tax_type_code": "GB_200_VAT"
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        }
+      ]
+    }
+  ],
+  "declined": [],
+  "derived": [],
+  "flags": [
+    {
+      "payable": 0,
+      "message": "Due date 2026-05-15 inferred from printed payment terms 'Within 30 days of invoice date' and invoice date 15/04/2026; no explicit due date is printed."
+    }
+  ]
+}

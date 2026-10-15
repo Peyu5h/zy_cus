@@ -1,0 +1,45 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 39.5,
+      "input_tokens": 8144,
+      "cached_tokens": 2816,
+      "output_tokens": 2739,
+      "reasoning_tokens": 2226,
+      "pages": [
+        "Page 1: supplier bill prepared for Northwind HOLDINGS OÜ with vendor details, two service lines, tax summary, and total amount due",
+        "Page 2: manager name and signature continuation page for the same supplier bill"
+      ],
+      "printed": [
+        "10",
+        "60",
+        "90.00",
+        "5400.00",
+        "1",
+        "1200.00",
+        "1200.00",
+        "6600.00",
+        "2.5",
+        "165.00",
+        "2.5",
+        "165.00",
+        "1",
+        "66.00",
+        "6996.00",
+        "15",
+        "1049.40",
+        "8045.40"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -, -, -, -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 61.1,
+      "input_tokens": 5641,
+      "cached_tokens": 2816,
+      "output_tokens": 5286,
+      "reasoning_tokens": 3624,
+      "pages": [
+        "Invoice from Cloverdale Supply OÜ to Northwind Services EE OÜ for parking services 2026-04"
+      ],
+      "printed": [
+        "1",
+        "63479.69",
+        "-1",
+        "12695.94",
+        "3173.98",
+        "234.86",
+        "13528.54",
+        "8897.68",
+        "6976.80",
+        "21380.06",
+        "4276.01",
+        "1069.00",
+        "875.10",
+        "1939.80",
+        "1075.86",
+        "215.17",
+        "53.79",
+        "119.00",
+        "20711.63",
+        "2946.89",
+        "736.70",
+        "1952.18",
+        "1108.87",
+        "160.85",
+        "2379.20",
+        "50.00",
+        "12.50",
+        "0",
+        "23301.32",
+        "0.00",
+        "23301.32",
+        "24",
+        "104263.02",
+        "25023.12",
+        "129286.14",
+        "127564.34",
+        "152587.46"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes EST_000_VAT, EST_240_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

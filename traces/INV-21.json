@@ -1,0 +1,41 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 79.2,
+      "input_tokens": 5719,
+      "cached_tokens": 2816,
+      "output_tokens": 5595,
+      "reasoning_tokens": 4980,
+      "pages": [
+        "invoice"
+      ],
+      "printed": [
+        "23",
+        "24.000",
+        "34.69",
+        "51.00",
+        "407.95",
+        "1.000",
+        "10.01",
+        "8.30",
+        "3.000",
+        "2.94",
+        "8.82",
+        "868.51",
+        "432.91",
+        "100.19",
+        "535.79"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes PT_230_IVA"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

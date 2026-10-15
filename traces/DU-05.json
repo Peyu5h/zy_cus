@@ -1,0 +1,30 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 37.7,
+      "input_tokens": 5719,
+      "cached_tokens": 0,
+      "output_tokens": 2979,
+      "reasoning_tokens": 2588,
+      "pages": [
+        "Tax invoice from Vantek Asia Pte Ltd to Cadence Pte. Ltd - Standard, 1 page"
+      ],
+      "printed": [
+        "771.66",
+        "100",
+        "771.66",
+        "100"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_90; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

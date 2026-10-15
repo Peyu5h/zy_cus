@@ -1,0 +1,87 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 43.7,
+      "input_tokens": 8300,
+      "cached_tokens": 2816,
+      "output_tokens": 3360,
+      "reasoning_tokens": 2740,
+      "pages": [
+        "Invoice page 1 with item table, tax summary, due date and total",
+        "Invoice page 2 continuation with delivery/lot details for the same invoice"
+      ],
+      "printed": [
+        "1",
+        "41.68",
+        "28.43",
+        "25.94",
+        "2",
+        "13.43",
+        "26.86",
+        "15.29",
+        "6",
+        "138.20",
+        "23.00",
+        "9.59",
+        "96.52",
+        "6.00",
+        "5.79",
+        "153.58"
+      ],
+      "signals": [
+        {
+          "path": "payables[0].total_tax_amount",
+          "kind": "ungrounded",
+          "message": "15.38 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes PT_230_IVA, PT_060_IVA"
+        }
+      ],
+      "done": false
+    },
+    {
+      "turn": 2,
+      "effort": "medium",
+      "seconds": 7.9,
+      "input_tokens": 11767,
+      "cached_tokens": 2816,
+      "output_tokens": 739,
+      "reasoning_tokens": 96,
+      "pages": [
+        "Invoice page 1 with item table, tax summary, due date and total",
+        "Invoice page 2 continuation with delivery/lot details for the same invoice"
+      ],
+      "printed": [
+        "1",
+        "41.68",
+        "28.43",
+        "25.94",
+        "2",
+        "13.43",
+        "26.86",
+        "15.29",
+        "6",
+        "138.20",
+        "23.00",
+        "9.59",
+        "96.52",
+        "6.00",
+        "5.79",
+        "153.58"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes PT_230_IVA, PT_060_IVA"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

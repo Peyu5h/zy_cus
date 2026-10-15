@@ -1,0 +1,83 @@
+{
+  "file": "INV-01.pdf",
+  "payables": [
+    {
+      "invoice_number": "852566",
+      "invoice_date": "2026-02-02",
+      "due_date": "2026-02-12",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_10",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "438.00",
+      "subtotal": "438.00",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "MwSt",
+          "tax_rate": "0",
+          "tax_amount": "0.00",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Projektmanagement Nachberechnung aus November",
+          "item_type": "SERVICE",
+          "uom": "Std.",
+          "quantity": "4",
+          "unit_price": "73.00",
+          "total": "292.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Projektmanagement Nachberechnung aus Dezember",
+          "item_type": "SERVICE",
+          "uom": "Std.",
+          "quantity": "2",
+          "unit_price": "73.00",
+          "total": "146.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        }
+      ]
+    }
+  ],
+  "declined": [],
+  "derived": [],
+  "flags": [
+    {
+      "payable": 0,
+      "message": "Supplier name, supplier address, supplier VAT ID, supplier country, and IBAN are not visible on the provided page. The only supplier contact visible is the email address jonas.haas@kingsley-media.de."
+    },
+    {
+      "payable": 0,
+      "message": "The printed note 'Vat ID: EE398766194 Reverse Charge' appears alongside the reverse-charge note and cannot be safely assigned as the supplier VAT ID from this page alone."
+    }
+  ]
+}

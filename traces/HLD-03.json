@@ -1,0 +1,35 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 63.4,
+      "input_tokens": 5719,
+      "cached_tokens": 2816,
+      "output_tokens": 3885,
+      "reasoning_tokens": 3525,
+      "pages": [
+        "invoice"
+      ],
+      "printed": [
+        "02.12.2025",
+        "01.01.2026",
+        "1",
+        "123.36",
+        "63.85",
+        "13.00",
+        "7.74",
+        "67.25",
+        "PT241238054"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes PT_130_IVA"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

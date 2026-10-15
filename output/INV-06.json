@@ -1,0 +1,479 @@
+{
+  "file": "INV-06.pdf",
+  "payables": [
+    {
+      "invoice_number": "8527907727",
+      "invoice_date": "2025-04-07",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "ZAR",
+      "supplier": {
+        "name": "Meridian Mobility Ltd",
+        "supplier_id": "",
+        "address": "Jalan Ampang 23087",
+        "vat_id": "5471258869"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "1683.98",
+      "subtotal": "1633.98",
+      "total_tax_amount": "169.83",
+      "discount_amount": "",
+      "freight_charges": "43.48",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "VAT",
+          "tax_name": "VAT Amount",
+          "tax_rate": "",
+          "tax_amount": "169.83",
+          "tax_type_code": ""
+        }
+      ],
+      "line_items": [
+        {
+          "description": "Pnp Bananas Box 1.2kg",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "44.99",
+          "total": "44.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Banana Loaf 300g",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "21.7304598169",
+          "total": "24.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Liqui-fruit Breakfast Punch Fruit Juice",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "21.7391554791",
+          "total": "25.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Liqui-fruit Berry Blaze Juice 1l",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "21.7391554791",
+          "total": "25.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Liqui-fruit Cranberry Cooler Juice 1l",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "21.7391554791",
+          "total": "25.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Liqui-fruit Orange Fruit Juice 1l",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "21.7391554791",
+          "total": "25.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Ripe & Ready Cling Peaches",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "56.99",
+          "total": "56.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Red Grapes 500g",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "39.99",
+          "total": "39.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp White Grapes 500g",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "39.99",
+          "total": "39.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Nature Valley Crunchy Oats & Honey",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "60.8609396793",
+          "total": "69.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Kellogg's Cocoa & Nutmix Granola",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "63.4696383368",
+          "total": "72.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Kellogg's Cranberry & Linseed Granola",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "63.4696383368",
+          "total": "72.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pringles Salt & Vinegar Potato Chips",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "60.8609396793",
+          "total": "69.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pringles Sour Cream & Onion Potato Chips",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "60.8609396793",
+          "total": "69.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Sliced Beef Biltong 300g",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "99.1218533225",
+          "total": "113.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Roasted & Salted Economy Mixed Nuts",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "109.5566479524",
+          "total": "125.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Bakehouse Blueberry Muffins 4 Pack",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "34.7739531044",
+          "total": "39.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Full Cream Smooth Plain Yoghurt 1kg",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "2",
+          "unit_price": "33.9043868852",
+          "total": "77.98",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Granola 750g",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "50.4261450493",
+          "total": "57.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pnp Berry Muesli Cereal 750g",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "65.2087707751",
+          "total": "74.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Kellogg's Corn Flakes 750g",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "65.2087707751",
+          "total": "74.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Clover Uht Full Cream Long Life",
+          "item_type": "GOODS",
+          "uom": "CS(6)",
+          "quantity": "2",
+          "unit_price": "99.99",
+          "total": "199.98",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Little Bee Honey Squeeze Bottle 1kg",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "139.1218994040",
+          "total": "159.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "* Pnp Bakehouse Blueberry Muffins 4 Pack",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "1",
+          "unit_price": "34.7739531044",
+          "total": "39.99",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Online Shopping Bag",
+          "item_type": "GOODS",
+          "uom": "EA",
+          "quantity": "4",
+          "unit_price": "1.1304360849",
+          "total": "5.20",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        }
+      ]
+    }
+  ],
+  "declined": [],
+  "derived": [
+    {
+      "payable": 0,
+      "path": "freight_charges",
+      "expr": "50.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[1].unit_price",
+      "expr": "24.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[2].unit_price",
+      "expr": "25.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[3].unit_price",
+      "expr": "25.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[4].unit_price",
+      "expr": "25.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[5].unit_price",
+      "expr": "25.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[9].unit_price",
+      "expr": "69.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[10].unit_price",
+      "expr": "72.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[11].unit_price",
+      "expr": "72.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[12].unit_price",
+      "expr": "69.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[13].unit_price",
+      "expr": "69.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[14].unit_price",
+      "expr": "113.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[15].unit_price",
+      "expr": "125.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[16].unit_price",
+      "expr": "39.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[17].unit_price",
+      "expr": "38.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[18].unit_price",
+      "expr": "57.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[19].unit_price",
+      "expr": "74.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[20].unit_price",
+      "expr": "74.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[22].unit_price",
+      "expr": "159.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[23].unit_price",
+      "expr": "39.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[24].unit_price",
+      "expr": "1.30 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00))"
+    }
+  ],
+  "flags": []
+}

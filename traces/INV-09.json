@@ -1,0 +1,31 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 36.5,
+      "input_tokens": 8300,
+      "cached_tokens": 2816,
+      "output_tokens": 2579,
+      "reasoning_tokens": 2187,
+      "pages": [
+        "Supplier invoice summary page",
+        "Customs declaration attachment/supporting page"
+      ],
+      "printed": [
+        "31889.09",
+        "5878.23",
+        "37767.32",
+        "0.00"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_21; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

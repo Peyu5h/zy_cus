@@ -1,0 +1,32 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 20.0,
+      "input_tokens": 12398,
+      "cached_tokens": 2816,
+      "output_tokens": 1346,
+      "reasoning_tokens": 1003,
+      "pages": [
+        "Tax invoice summary page with supplier/buyer details, totals, GST summary and remittance slip",
+        "Account summary page for Site: 480 Collins Serviced Offices",
+        "Licence fee detail page for Suite 313b"
+      ],
+      "printed": [
+        "1.00",
+        "52.00",
+        "520.00",
+        "572.00"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_7; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

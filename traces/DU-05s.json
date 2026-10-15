@@ -1,0 +1,33 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 26.5,
+      "input_tokens": 41619,
+      "cached_tokens": 2816,
+      "output_tokens": 1605,
+      "reasoning_tokens": 773,
+      "pages": [
+        "Delivery note addressed to Kingsley Services Inc, dated 29.06.2026, order 3057199",
+        "Delivery note addressed to Meridian Technologies Inc, dated 29.06.2026, order 3060775",
+        "Delivery note addressed to Kingsley Consulting Inc, dated 30.06.2026, order 3057604",
+        "Delivery note addressed to Cloverdale Partners Inc, dated 30.06.2026, order 3056096",
+        "Delivery note addressed to Cloverdale Systems Inc, dated 30.06.2026, order 3057451",
+        "Delivery note addressed to Redwater Trading Inc, dated 30.06.2026, order 3057199",
+        "Delivery note addressed to Meridian Media Inc, dated 17.07.2026, order 3060775",
+        "Delivery note addressed to Fairmont Services Inc, dated 30.06.2026, order 3061229",
+        "Delivery note addressed to Northwind Services Inc, dated 31.07.2026, order 3061562",
+        "Delivery note addressed to Brightside Logistics Inc, dated 28.07.2026, order 3061564",
+        "Delivery note addressed to Silverbrook Distribution Inc, dated 30.06.2026, order 3057199",
+        "Delivery note addressed to Brightside Print Inc, dated 15.07.2026, order 3061229",
+        "DHL Express Worldwide shipping label / airwaybill page",
+        "DHL Express Worldwide shipping label continuation page 2/2",
+        "Shipment Receipt for DHL shipment"
+      ],
+      "printed": [],
+      "signals": [],
+      "done": true
+    }
+  ]
+}

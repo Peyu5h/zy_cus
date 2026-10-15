@@ -1,0 +1,77 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 95.3,
+      "input_tokens": 34110,
+      "cached_tokens": 0,
+      "output_tokens": 6341,
+      "reasoning_tokens": 4971,
+      "pages": [
+        "Blueharbor tax invoice page 1 of 2",
+        "Blueharbor tax invoice page 2 of 2",
+        "MAERSK shipment cartage advice",
+        "Singapore cargo/customs permit page 1 of 2",
+        "Singapore cargo/customs permit page 2 of 2",
+        "House Air Waybill original 2 for consignee",
+        "House Air Waybill conditions page",
+        "House Air Waybill copy 4 delivery receipt",
+        "House Air Waybill copy 5 extra copy",
+        "House Air Waybill copy 6 extra copy",
+        "House Air Waybill copy 7 extra copy",
+        "Polvex goods invoice / commercial invoice"
+      ],
+      "printed": [
+        "567.000",
+        "1.28",
+        "725.76",
+        "567.000",
+        "0.10",
+        "56.70",
+        "1.000",
+        "45.00",
+        "45.00",
+        "567.000",
+        "0.04",
+        "22.68",
+        "567.000",
+        "0.18",
+        "102.06",
+        "1.000",
+        "7.50",
+        "7.50",
+        "1.000",
+        "15.00",
+        "15.00",
+        "1.000",
+        "15.00",
+        "15.00",
+        "1.000",
+        "5.00",
+        "5.00",
+        "567.000",
+        "0.08",
+        "45.36",
+        "1040.06",
+        "0.00",
+        "1040.06",
+        "8.18",
+        "4499.00"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_60; po_id -; tax codes SG_000_GST"
+        },
+        {
+          "path": "payables[1]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

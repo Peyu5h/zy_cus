@@ -1,0 +1,34 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 72.2,
+      "input_tokens": 8300,
+      "cached_tokens": 0,
+      "output_tokens": 3635,
+      "reasoning_tokens": 3237,
+      "pages": [
+        "Invoice detail page for invoice 20423591",
+        "Payment information and Swiss QR payment slip for the same invoice"
+      ],
+      "printed": [
+        "11.19",
+        "8.10",
+        "11.19",
+        "12.10",
+        "0.91",
+        "12.10",
+        "12.10"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes CH_081_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "file": "INV-26.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "QUOTATION",
+      "reason": "Declined as not a payable: the document identifies itself with a 'Quotation No.' rather than an invoice number, so it presents itself as a quotation / sales quote, not a bill."
+    }
+  ],
+  "derived": [],
+  "flags": []
+}

@@ -1,0 +1,16 @@
+{
+  "file": "INV-23.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "ESTIMATE",
+      "reason": "Page 1 presents itself as an estimate (# EST-259684), not a bill or invoice."
+    },
+    {
+      "doc_type": "CUSTOMS_PAPER",
+      "reason": "Pages 4-6 present themselves as an ICUMS Duty Calculator/customs calculation, not a supplier bill."
+    }
+  ],
+  "derived": [],
+  "flags": []
+}

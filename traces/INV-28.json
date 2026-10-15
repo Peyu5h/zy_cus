@@ -1,0 +1,60 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 49.2,
+      "input_tokens": 10881,
+      "cached_tokens": 2816,
+      "output_tokens": 3795,
+      "reasoning_tokens": 2665,
+      "pages": [
+        "Page 1: invoice page 1 with supplier/buyer details, invoice number/date/due date, line items, carry-forward subtotal",
+        "Page 2: invoice page 2 with subtotal, VAT, gross total, payment information, legal/payment text",
+        "Page 3: specification/detail page for the same invoice"
+      ],
+      "printed": [
+        "10",
+        "0.521",
+        "25",
+        "5.21",
+        "35",
+        "32.427",
+        "1134.95",
+        "100",
+        "2.632",
+        "263.20",
+        "1",
+        "513.00",
+        "172.00",
+        "0.69",
+        "6.90",
+        "355.186",
+        "355.19",
+        "65.25",
+        "119.00",
+        "200.00",
+        "120.00",
+        "3",
+        "60.00",
+        "180.00",
+        "156.86",
+        "2",
+        "112.00",
+        "224.00",
+        "67.00",
+        "3582.56",
+        "895.64",
+        "4478.20"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes DK_250_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

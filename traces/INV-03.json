@@ -1,0 +1,34 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 45.4,
+      "input_tokens": 8300,
+      "cached_tokens": 2816,
+      "output_tokens": 3337,
+      "reasoning_tokens": 2940,
+      "pages": [
+        "Tax invoice page with one service line, VAT, totals, supplier and buyer details",
+        "Payment advice/remittance slip for the same invoice; not a separate payable"
+      ],
+      "printed": [
+        "3590736231",
+        "1.00",
+        "7434.78",
+        "15",
+        "7434.78",
+        "1115.22",
+        "8550.00"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_14; po_id -; tax codes ZAF_150_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

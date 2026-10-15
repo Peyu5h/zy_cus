@@ -1,0 +1,37 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 55.5,
+      "input_tokens": 5719,
+      "cached_tokens": 2816,
+      "output_tokens": 4168,
+      "reasoning_tokens": 3599,
+      "pages": [
+        "Invoice from Meridian Media to Northwind OPERATIONS OÜ"
+      ],
+      "printed": [
+        "5.00",
+        "24.0",
+        "53.40",
+        "24.0",
+        "5.00",
+        "24.0",
+        "3.70",
+        "24.0",
+        "67.10",
+        "16.11",
+        "83.21"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_21; po_id -; tax codes EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

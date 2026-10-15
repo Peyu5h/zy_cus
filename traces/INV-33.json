@@ -1,0 +1,51 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 33.3,
+      "input_tokens": 5719,
+      "cached_tokens": 2816,
+      "output_tokens": 2351,
+      "reasoning_tokens": 1902,
+      "pages": [
+        "Invoice page 1 from AD NOTIONS INT'L PTE. LTD. to Changi Airport Group (S) Pte Ltd for signage panel, total SGD 250.00"
+      ],
+      "printed": [
+        "53057406",
+        "01",
+        "070",
+        "17",
+        "8",
+        "2017",
+        "8074",
+        "06",
+        "17",
+        "250.00",
+        "01",
+        "250.00",
+        "250.00",
+        "20",
+        "08",
+        "61",
+        "573968",
+        "65",
+        "6515",
+        "1516",
+        "65",
+        "6515",
+        "1517",
+        "168",
+        "918146"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

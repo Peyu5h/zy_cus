@@ -1,0 +1,84 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 49.1,
+      "input_tokens": 8300,
+      "cached_tokens": 2816,
+      "output_tokens": 3754,
+      "reasoning_tokens": 3106,
+      "pages": [
+        "Invoice FAC A98/712 (Original)",
+        "Duplicate copy of invoice FAC A98/712"
+      ],
+      "printed": [
+        "400.00",
+        "0.400",
+        "160.00",
+        "23",
+        "0.000",
+        "0.00",
+        "200.00",
+        "0.080",
+        "16.00",
+        "143.09",
+        "32.91",
+        "176.00"
+      ],
+      "signals": [
+        {
+          "path": "derived[0]",
+          "kind": "circular",
+          "message": "(143.09 * 160.00 / 176.00) / 400.00 works from 176.00, the gross_total the ERP's rebuild is checked against"
+        },
+        {
+          "path": "derived[1]",
+          "kind": "circular",
+          "message": "(143.09 * 16.00 / 176.00) / 200.00 works from 176.00, the gross_total the ERP's rebuild is checked against"
+        },
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes PT_230_IVA, PT_230_IVA, PT_230_IVA"
+        }
+      ],
+      "done": false
+    },
+    {
+      "turn": 2,
+      "effort": "medium",
+      "seconds": 15.2,
+      "input_tokens": 12239,
+      "cached_tokens": 2816,
+      "output_tokens": 1112,
+      "reasoning_tokens": 464,
+      "pages": [
+        "Invoice FAC A98/712 (Original)",
+        "Duplicate copy of invoice FAC A98/712"
+      ],
+      "printed": [
+        "400.00",
+        "0.400",
+        "160.00",
+        "23",
+        "0.000",
+        "0.00",
+        "200.00",
+        "0.080",
+        "16.00",
+        "143.09",
+        "32.91",
+        "176.00"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes PT_230_IVA, PT_230_IVA, PT_230_IVA"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

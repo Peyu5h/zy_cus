@@ -1,0 +1,255 @@
+{
+  "file": "DU-03.pdf",
+  "payables": [
+    {
+      "invoice_number": "0107892268",
+      "invoice_date": "2025-11-17",
+      "due_date": "2026-01-16",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "Blueharbor Logistics & Services Singapore Pte. Ltd.",
+        "supplier_id": "",
+        "address": "Changi Airfreight Centre\nGartenweg 7\nCargo Agents Building E\n819834 Singapore",
+        "vat_id": "M2-0029161-1"
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "Net_60",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "1040.06",
+      "subtotal": "1040.06",
+      "total_tax_amount": "0.00",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [
+        {
+          "tax_type": "GST",
+          "tax_name": "GST on sales",
+          "tax_rate": "0.00",
+          "tax_amount": "0.00",
+          "tax_type_code": "SG_000_GST"
+        }
+      ],
+      "line_items": [
+        {
+          "description": "International Freight",
+          "item_type": "FREIGHT",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "1.28",
+          "total": "725.76",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Origin Terminal Handling",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.10",
+          "total": "56.70",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Documentation Fee",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "45.00",
+          "total": "45.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Delivery",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.04",
+          "total": "22.68",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Pick-up",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.18",
+          "total": "102.06",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Customs - Export",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "7.50",
+          "total": "7.50",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Origin Documentation",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "15.00",
+          "total": "15.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Customs - Import",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "15.00",
+          "total": "15.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Carrier Manifest Filing",
+          "item_type": "SERVICE",
+          "uom": "EA",
+          "quantity": "1.000",
+          "unit_price": "5.00",
+          "total": "5.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Terminal Handling",
+          "item_type": "SERVICE",
+          "uom": "KG",
+          "quantity": "567.000",
+          "unit_price": "0.08",
+          "total": "45.36",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        }
+      ]
+    },
+    {
+      "invoice_number": "",
+      "invoice_date": "2025-10-28",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "EUR",
+      "supplier": {
+        "name": "Polvex (FAR EAST) LTD",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "",
+      "po_id": "",
+      "gross_total": "4499.00",
+      "subtotal": "4499.00",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "P2H-AT",
+          "item_type": "GOODS",
+          "uom": "",
+          "quantity": "550.00",
+          "unit_price": "8.18",
+          "total": "4499.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        }
+      ]
+    }
+  ],
+  "declined": [
+    {
+      "doc_type": "Shipment cartage advice",
+      "reason": "Transport advice document; no amount due is requested."
+    },
+    {
+      "doc_type": "Cargo/customs permit",
+      "reason": "Customs permit/supporting document; no payment is requested."
+    },
+    {
+      "doc_type": "House Air Waybill and duplicate copies",
+      "reason": "Transport document and repeated copies/conditions pages; no amount due is requested."
+    }
+  ],
+  "derived": [
+    {
+      "payable": 1,
+      "path": "line_items[0].quantity",
+      "expr": "4499.00 / 8.18"
+    }
+  ],
+  "flags": [
+    {
+      "payable": 0,
+      "message": "Invoice date is not clearly legible on the image; 2025-11-17 was inferred from due date 16.Jan.2026 and printed payment terms 60 Days Net."
+    },
+    {
+      "payable": 0,
+      "message": "Supplier bank account/IBAN is obscured on the image and could not be transcribed."
+    },
+    {
+      "payable": 1,
+      "message": "The document on page 12 does not show an invoice number, due date, supplier address, tax ID, bank account or payment terms."
+    }
+  ]
+}

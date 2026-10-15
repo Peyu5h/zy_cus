@@ -1,0 +1,38 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 51.2,
+      "input_tokens": 8300,
+      "cached_tokens": 0,
+      "output_tokens": 3665,
+      "reasoning_tokens": 3219,
+      "pages": [
+        "Invoice page 1 of 2: summary/totals for invoice TLLIR72836045",
+        "Invoice page 2 of 2: shipment detail for the same invoice"
+      ],
+      "printed": [
+        "1",
+        "18.87",
+        "2.83",
+        "4.15",
+        "0.62",
+        "21.70",
+        "22.00",
+        "4.77",
+        "23.02",
+        "3.45",
+        "26.47"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer BOLTGROUP/-/LOC_EE_001; payment_term_id -; po_id -; tax codes EST_220_VAT, EST_220_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

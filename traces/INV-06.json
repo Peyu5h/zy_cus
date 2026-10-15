@@ -1,0 +1,397 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 162.4,
+      "input_tokens": 8300,
+      "cached_tokens": 2816,
+      "output_tokens": 9395,
+      "reasoning_tokens": 7138,
+      "pages": [
+        "Tax invoice header and summary",
+        "Tax invoice line items"
+      ],
+      "printed": [
+        "1633.98",
+        "50.00",
+        "1683.98",
+        "169.83",
+        "44.99",
+        "1",
+        "24.99",
+        "1",
+        "25.00",
+        "1",
+        "25.00",
+        "1",
+        "25.00",
+        "1",
+        "25.00",
+        "1",
+        "56.99",
+        "1",
+        "39.99",
+        "1",
+        "39.99",
+        "1",
+        "69.99",
+        "1",
+        "72.99",
+        "1",
+        "72.99",
+        "1",
+        "69.99",
+        "1",
+        "69.99",
+        "1",
+        "113.99",
+        "1",
+        "125.99",
+        "1",
+        "39.99",
+        "1",
+        "38.99",
+        "2",
+        "57.99",
+        "1",
+        "74.99",
+        "1",
+        "74.99",
+        "1",
+        "99.99",
+        "2",
+        "159.99",
+        "1",
+        "39.99",
+        "1",
+        "1.30",
+        "4"
+      ],
+      "signals": [
+        {
+          "path": "payables[0].line_items[17].total",
+          "kind": "ungrounded",
+          "message": "77.98 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[21].total",
+          "kind": "ungrounded",
+          "message": "199.98 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[24].total",
+          "kind": "ungrounded",
+          "message": "5.20 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "derived[0]",
+          "kind": "ungrounded",
+          "message": "50.00 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[1]",
+          "kind": "ungrounded",
+          "message": "24.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[2]",
+          "kind": "ungrounded",
+          "message": "25.00 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[3]",
+          "kind": "ungrounded",
+          "message": "25.00 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[4]",
+          "kind": "ungrounded",
+          "message": "25.00 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[5]",
+          "kind": "ungrounded",
+          "message": "25.00 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[6]",
+          "kind": "ungrounded",
+          "message": "69.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[7]",
+          "kind": "ungrounded",
+          "message": "72.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[8]",
+          "kind": "ungrounded",
+          "message": "72.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[9]",
+          "kind": "ungrounded",
+          "message": "69.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[10]",
+          "kind": "ungrounded",
+          "message": "69.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[11]",
+          "kind": "ungrounded",
+          "message": "113.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[12]",
+          "kind": "ungrounded",
+          "message": "125.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[13]",
+          "kind": "ungrounded",
+          "message": "39.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[14]",
+          "kind": "ungrounded",
+          "message": "38.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[15]",
+          "kind": "ungrounded",
+          "message": "57.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[16]",
+          "kind": "ungrounded",
+          "message": "74.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[17]",
+          "kind": "ungrounded",
+          "message": "74.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[18]",
+          "kind": "ungrounded",
+          "message": "159.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[19]",
+          "kind": "ungrounded",
+          "message": "39.99 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "derived[20]",
+          "kind": "ungrounded",
+          "message": "1.30 / 1.15 uses 1.15, not among the printed figures listed"
+        },
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -"
+        }
+      ],
+      "done": false
+    },
+    {
+      "turn": 2,
+      "effort": "medium",
+      "seconds": 46.9,
+      "input_tokens": 18731,
+      "cached_tokens": 2816,
+      "output_tokens": 5485,
+      "reasoning_tokens": 1704,
+      "pages": [
+        "Tax invoice header and summary",
+        "Tax invoice line items"
+      ],
+      "printed": [
+        "1633.98",
+        "50.00",
+        "1683.98",
+        "169.83",
+        "44.99",
+        "24.99",
+        "25.00",
+        "56.99",
+        "39.99",
+        "69.99",
+        "72.99",
+        "113.99",
+        "125.99",
+        "77.98",
+        "57.99",
+        "74.99",
+        "199.98",
+        "159.99",
+        "5.20",
+        "38.99",
+        "99.99",
+        "1.30",
+        "1",
+        "2",
+        "4"
+      ],
+      "signals": [
+        {
+          "path": "derived[1]",
+          "kind": "derivation",
+          "message": "24.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 21.7305, but payables[0].line_items[1].unit_price is '21.7304347826'"
+        },
+        {
+          "path": "derived[2]",
+          "kind": "derivation",
+          "message": "25.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 21.7392, but payables[0].line_items[2].unit_price is '21.7391304348'"
+        },
+        {
+          "path": "derived[3]",
+          "kind": "derivation",
+          "message": "25.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 21.7392, but payables[0].line_items[3].unit_price is '21.7391304348'"
+        },
+        {
+          "path": "derived[4]",
+          "kind": "derivation",
+          "message": "25.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 21.7392, but payables[0].line_items[4].unit_price is '21.7391304348'"
+        },
+        {
+          "path": "derived[5]",
+          "kind": "derivation",
+          "message": "25.00 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 21.7392, but payables[0].line_items[5].unit_price is '21.7391304348'"
+        },
+        {
+          "path": "derived[6]",
+          "kind": "derivation",
+          "message": "69.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 60.8609, but payables[0].line_items[9].unit_price is '60.8608695652'"
+        },
+        {
+          "path": "derived[7]",
+          "kind": "derivation",
+          "message": "72.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 63.4696, but payables[0].line_items[10].unit_price is '63.4695652174'"
+        },
+        {
+          "path": "derived[8]",
+          "kind": "derivation",
+          "message": "72.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 63.4696, but payables[0].line_items[11].unit_price is '63.4695652174'"
+        },
+        {
+          "path": "derived[9]",
+          "kind": "derivation",
+          "message": "69.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 60.8609, but payables[0].line_items[12].unit_price is '60.8608695652'"
+        },
+        {
+          "path": "derived[10]",
+          "kind": "derivation",
+          "message": "69.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 60.8609, but payables[0].line_items[13].unit_price is '60.8608695652'"
+        },
+        {
+          "path": "derived[11]",
+          "kind": "derivation",
+          "message": "113.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 99.1219, but payables[0].line_items[14].unit_price is '99.1217391304'"
+        },
+        {
+          "path": "derived[12]",
+          "kind": "derivation",
+          "message": "125.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 109.557, but payables[0].line_items[15].unit_price is '109.5565217391'"
+        },
+        {
+          "path": "derived[13]",
+          "kind": "derivation",
+          "message": "39.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 34.774, but payables[0].line_items[16].unit_price is '34.7739130435'"
+        },
+        {
+          "path": "derived[14]",
+          "kind": "derivation",
+          "message": "38.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 33.9044, but payables[0].line_items[17].unit_price is '33.9043478261'"
+        },
+        {
+          "path": "derived[15]",
+          "kind": "derivation",
+          "message": "57.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 50.4261, but payables[0].line_items[18].unit_price is '50.4260869565'"
+        },
+        {
+          "path": "derived[16]",
+          "kind": "derivation",
+          "message": "74.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 65.2088, but payables[0].line_items[19].unit_price is '65.2086956522'"
+        },
+        {
+          "path": "derived[17]",
+          "kind": "derivation",
+          "message": "74.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 65.2088, but payables[0].line_items[20].unit_price is '65.2086956522'"
+        },
+        {
+          "path": "derived[18]",
+          "kind": "derivation",
+          "message": "159.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 139.122, but payables[0].line_items[22].unit_price is '139.1217391304'"
+        },
+        {
+          "path": "derived[19]",
+          "kind": "derivation",
+          "message": "39.99 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 34.774, but payables[0].line_items[23].unit_price is '34.7739130435'"
+        },
+        {
+          "path": "derived[20]",
+          "kind": "derivation",
+          "message": "1.30 * ((1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00 - 169.83) / (1633.98 - (44.99 + 56.99 + 39.99 + 39.99 + 199.98) + 50.00)) = 1.13044, but payables[0].line_items[24].unit_price is '1.1304347826'"
+        },
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -"
+        }
+      ],
+      "done": false
+    },
+    {
+      "turn": 3,
+      "effort": "high",
+      "seconds": 80.8,
+      "input_tokens": 26927,
+      "cached_tokens": 7680,
+      "output_tokens": 7873,
+      "reasoning_tokens": 4092,
+      "pages": [
+        "Tax invoice header and summary",
+        "Tax invoice line items"
+      ],
+      "printed": [
+        "1633.98",
+        "50.00",
+        "1683.98",
+        "169.83",
+        "44.99",
+        "24.99",
+        "25.00",
+        "56.99",
+        "39.99",
+        "69.99",
+        "72.99",
+        "113.99",
+        "125.99",
+        "77.98",
+        "57.99",
+        "74.99",
+        "199.98",
+        "159.99",
+        "5.20",
+        "38.99",
+        "99.99",
+        "1.30",
+        "1",
+        "2",
+        "4"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

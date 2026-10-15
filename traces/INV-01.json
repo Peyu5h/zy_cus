@@ -1,0 +1,35 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 25.4,
+      "input_tokens": 5719,
+      "cached_tokens": 2816,
+      "output_tokens": 2051,
+      "reasoning_tokens": 1552,
+      "pages": [
+        "Invoice addressed to Northwind Operations OÜ for two project management service lines; invoice no. 852566 dated 02.02.2026; total EUR 438.00 with 0% MwSt / reverse charge."
+      ],
+      "printed": [
+        "852566",
+        "73.00",
+        "4",
+        "292.00",
+        "2",
+        "146.00",
+        "438.00",
+        "0",
+        "0.00"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_10; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "file": "DU-05s.pdf",
+  "payables": [],
+  "declined": [
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 1 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 2 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 3 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 4 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 5 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 6 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 7 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 8 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 9 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 10 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 11 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "DELIVERY_NOTE",
+      "reason": "Page 12 is titled 'Delivery note' and requests no payment; it is not an invoice or other payable document."
+    },
+    {
+      "doc_type": "SHIPPING_LABEL",
+      "reason": "Pages 13-14 are DHL shipping labels/airwaybill pages, not billing documents and request no payment."
+    },
+    {
+      "doc_type": "SHIPMENT_RECEIPT",
+      "reason": "Page 15 is titled 'Shipment Receipt' and shows shipment information only; it is not an invoice or other payable document."
+    }
+  ],
+  "derived": [],
+  "flags": []
+}

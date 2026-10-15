@@ -1,0 +1,34 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 57.0,
+      "input_tokens": 5719,
+      "cached_tokens": 0,
+      "output_tokens": 3691,
+      "reasoning_tokens": 3321,
+      "pages": [
+        "tax invoice"
+      ],
+      "printed": [
+        "133.00",
+        "129.00",
+        "15",
+        "17157.00",
+        "2573.55",
+        "19730.55",
+        "13110.00",
+        "6620.55"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes ZAF_150_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

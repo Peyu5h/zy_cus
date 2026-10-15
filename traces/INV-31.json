@@ -1,0 +1,31 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 37.6,
+      "input_tokens": 12854,
+      "cached_tokens": 0,
+      "output_tokens": 2537,
+      "reasoning_tokens": 2198,
+      "pages": [
+        "Page 1: invoice from 100 Airport KPG III, LLC to AmeriHealth Caritas for rebilled electric charges",
+        "Page 2: attached PECO utility bill support, page 1 of 2, for the rebilled electric charges",
+        "Page 3: attached PECO utility bill support, page 2 of 2, for the rebilled electric charges"
+      ],
+      "printed": [
+        "39015",
+        "16299",
+        "17657.53"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

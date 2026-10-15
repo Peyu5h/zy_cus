@@ -1,0 +1,104 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 58.6,
+      "input_tokens": 5719,
+      "cached_tokens": 0,
+      "output_tokens": 3992,
+      "reasoning_tokens": 3516,
+      "pages": [
+        "credit memo"
+      ],
+      "printed": [
+        "16.03.2025",
+        "16.03.2025",
+        "795977",
+        "0.03",
+        "-400.00",
+        "11.03.25",
+        "-327.868852",
+        "1",
+        "22",
+        "-327.87",
+        "-327.87",
+        "-72.13",
+        "-400.00"
+      ],
+      "signals": [
+        {
+          "path": "derived[0]",
+          "kind": "derivation",
+          "message": "cannot evaluate 'abs(-400.00)' against payables[0].gross_total"
+        },
+        {
+          "path": "derived[1]",
+          "kind": "derivation",
+          "message": "cannot evaluate 'abs(-327.87)' against payables[0].subtotal"
+        },
+        {
+          "path": "derived[2]",
+          "kind": "derivation",
+          "message": "cannot evaluate 'abs(-72.13)' against payables[0].total_tax_amount"
+        },
+        {
+          "path": "derived[3]",
+          "kind": "derivation",
+          "message": "cannot evaluate 'abs(-72.13)' against payables[0].taxes[0].tax_amount"
+        },
+        {
+          "path": "derived[4]",
+          "kind": "derivation",
+          "message": "cannot evaluate 'abs(-327.868852)' against payables[0].line_items[0].unit_price"
+        },
+        {
+          "path": "derived[5]",
+          "kind": "derivation",
+          "message": "cannot evaluate 'abs(-327.87)' against payables[0].line_items[0].total"
+        },
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes EST_220_VAT"
+        }
+      ],
+      "done": false
+    },
+    {
+      "turn": 2,
+      "effort": "medium",
+      "seconds": 8.9,
+      "input_tokens": 10007,
+      "cached_tokens": 2816,
+      "output_tokens": 711,
+      "reasoning_tokens": 229,
+      "pages": [
+        "credit memo"
+      ],
+      "printed": [
+        "16.03.2025",
+        "16.03.2025",
+        "795977",
+        "0.03",
+        "-400.00",
+        "11.03.25",
+        "-327.868852",
+        "1",
+        "22",
+        "-327.87",
+        "-327.87",
+        "-72.13",
+        "-400.00"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes EST_220_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

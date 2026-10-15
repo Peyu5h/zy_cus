@@ -1,0 +1,31 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 12.1,
+      "input_tokens": 6098,
+      "cached_tokens": 2816,
+      "output_tokens": 875,
+      "reasoning_tokens": 516,
+      "pages": [
+        "1-page invoice from Oracle America, Inc. to AmeriHealth Caritas Services for managed cloud services; one non-taxable service line; total due USD 91,580.50"
+      ],
+      "printed": [
+        "91580.50",
+        "0.00",
+        "91580.50",
+        "1",
+        "91580.50"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes -"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "file": "INV-37.pdf",
+  "payables": [
+    {
+      "invoice_number": "5568",
+      "invoice_date": "2018-06-12",
+      "due_date": "",
+      "invoice_type": "INVOICE",
+      "currency": "USD",
+      "supplier": {
+        "name": "1120 VERMONT AVENUE ASSOCIATES, LLP",
+        "supplier_id": "",
+        "address": "",
+        "vat_id": ""
+      },
+      "buyer": {
+        "company_code": "",
+        "business_unit_code": "",
+        "location_code": ""
+      },
+      "payment_term_id": "",
+      "po_number": "17816",
+      "po_id": "",
+      "gross_total": "2487.73",
+      "subtotal": "",
+      "total_tax_amount": "",
+      "discount_amount": "",
+      "freight_charges": "",
+      "insurance_charges": "",
+      "extra_charges": "",
+      "excise_duties": "",
+      "taxes": [],
+      "line_items": [
+        {
+          "description": "Non-Residential-GT",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "1570.37",
+          "total": "1570.37",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "SALES TAX",
+              "tax_name": "Sales tax on utility bills",
+              "tax_rate": "5.75",
+              "tax_amount": "90.296275",
+              "tax_type_code": ""
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Maximum Demand",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "266.10",
+          "total": "266.10",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "SALES TAX",
+              "tax_name": "Sales tax on utility bills",
+              "tax_rate": "5.75",
+              "tax_amount": "15.30075",
+              "tax_type_code": ""
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Condenser Water Costs",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "416.65",
+          "total": "416.65",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [],
+          "tax_rate": "",
+          "tax_amount": ""
+        },
+        {
+          "description": "Building Service Fees",
+          "item_type": "SERVICE",
+          "uom": "",
+          "quantity": "1",
+          "unit_price": "122.00",
+          "total": "122.00",
+          "discount": "",
+          "discount_percentage": "",
+          "taxes": [
+            {
+              "tax_type": "SALES TAX",
+              "tax_name": "Sales tax on building services",
+              "tax_rate": "5.75",
+              "tax_amount": "7.015",
+              "tax_type_code": ""
+            }
+          ],
+          "tax_rate": "",
+          "tax_amount": ""
+        }
+      ]
+    }
+  ],
+  "declined": [],
+  "derived": [
+    {
+      "payable": 0,
+      "path": "line_items[0].taxes[0].tax_rate",
+      "expr": "0.0575 * 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[0].taxes[0].tax_amount",
+      "expr": "1570.37 * 0.0575"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[1].taxes[0].tax_rate",
+      "expr": "0.0575 * 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[1].taxes[0].tax_amount",
+      "expr": "266.10 * 0.0575"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[3].taxes[0].tax_rate",
+      "expr": "0.0575 * 100"
+    },
+    {
+      "payable": 0,
+      "path": "line_items[3].taxes[0].tax_amount",
+      "expr": "122.00 * 0.0575"
+    }
+  ],
+  "flags": []
+}

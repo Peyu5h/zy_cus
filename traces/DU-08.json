@@ -1,0 +1,19 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 7.1,
+      "input_tokens": 5719,
+      "cached_tokens": 0,
+      "output_tokens": 229,
+      "reasoning_tokens": 121,
+      "pages": [
+        "Page 1: payment reminder / dunning notice (\"Mahnung\") listing prior documents and outstanding balance, not an invoice"
+      ],
+      "printed": [],
+      "signals": [],
+      "done": true
+    }
+  ]
+}

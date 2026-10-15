@@ -1,0 +1,41 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 28.0,
+      "input_tokens": 5641,
+      "cached_tokens": 2816,
+      "output_tokens": 2094,
+      "reasoning_tokens": 1552,
+      "pages": [
+        "1: tax invoice from Northwind Services UK Ltd to Silverbrook Media Limited for June 2026 management fee, business rates, and utilities; amount due GBP 29,253.72 due 2026-05-31"
+      ],
+      "printed": [
+        "1.00",
+        "14620.18",
+        "20",
+        "14620.18",
+        "1.00",
+        "9987.50",
+        "9987.50",
+        "1.00",
+        "1435.00",
+        "20",
+        "1435.00",
+        "26042.68",
+        "3211.04",
+        "29253.72",
+        "29253.72"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id Net_30; po_id -; tax codes GB_200_VAT, GB_200_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}

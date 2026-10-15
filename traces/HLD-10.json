@@ -1,0 +1,223 @@
+{
+  "turns": [
+    {
+      "turn": 1,
+      "effort": "medium",
+      "seconds": 16.7,
+      "input_tokens": 8300,
+      "cached_tokens": 2816,
+      "output_tokens": 1238,
+      "reasoning_tokens": 516,
+      "pages": [
+        "Invoice summary page 1 of 2 from Speedwell Estonia AS to Northwind Operations OÜ",
+        "Invoice detail page 2 of 2 for the same invoice"
+      ],
+      "printed": [
+        "07-05-26",
+        "04-06-26",
+        "223.98",
+        "30.54",
+        "254.52",
+        "66.36",
+        "24.00",
+        "127.25",
+        "30.54",
+        "0.00",
+        "96.73",
+        "0.00",
+        "0.01",
+        "0.01",
+        "96.73",
+        "157.78",
+        "30.53",
+        "157.25"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "erp_gross",
+          "message": "the ERP books 381.42 EUR = line bases 253.99 - header discount 0.00 + line taxes 30.53 + header taxes 30.54 + charges 66.36; the document's gross_total is 254.52 (difference +126.90)"
+        },
+        {
+          "path": "derived[0]",
+          "kind": "derivation",
+          "message": "157.78 - 30.53 = 127.25, but payables[0].line_items[2].unit_price is '157.25'"
+        },
+        {
+          "path": "derived[1]",
+          "kind": "derivation",
+          "message": "30.53 / 157.25 * 100 = 19.4149, but payables[0].line_items[2].taxes[0].tax_rate is '19.42'"
+        },
+        {
+          "path": "payables[0].total_tax_amount",
+          "kind": "erp_tax",
+          "message": "the ERP's taxes total 61.07; the document's total_tax_amount is 30.54"
+        },
+        {
+          "path": "payables[0].line_items[2]",
+          "kind": "erp_line",
+          "message": "the ERP's base is 157.25; the printed line total is 157.78"
+        },
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes EST_240_VAT, EST_000_VAT, -"
+        }
+      ],
+      "done": false
+    },
+    {
+      "turn": 2,
+      "effort": "medium",
+      "seconds": 58.8,
+      "input_tokens": 9893,
+      "cached_tokens": 2816,
+      "output_tokens": 5573,
+      "reasoning_tokens": 4131,
+      "pages": [
+        "Invoice summary page 1 of 2 from Speedwell Estonia AS to Northwind Operations OÜ",
+        "Invoice detail page 2 of 2 for the same invoice"
+      ],
+      "printed": [
+        "223.98",
+        "30.54",
+        "254.52",
+        "65.26",
+        "30.67",
+        "0.80",
+        "35.41",
+        "8.50",
+        "43.91",
+        "12.92",
+        "3.10",
+        "16.02",
+        "0.68",
+        "0.16",
+        "0.84",
+        "25.18",
+        "6.04",
+        "31.22",
+        "0.04",
+        "0.20",
+        "9.25",
+        "2.22",
+        "11.47",
+        "31.77",
+        "7.62",
+        "39.39",
+        "11.20",
+        "2.69",
+        "13.89",
+        "0.01"
+      ],
+      "signals": [
+        {
+          "path": "payables[0].line_items[3].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[4].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[5].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[6].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[7].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[8].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[9].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[10].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0].line_items[11].taxes[0].tax_rate",
+          "kind": "ungrounded",
+          "message": "24.00 is not among the printed figures listed, and no derivation is declared for it"
+        },
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -, EST_000_VAT, EST_000_VAT, EST_000_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT"
+        }
+      ],
+      "done": false
+    },
+    {
+      "turn": 3,
+      "effort": "high",
+      "seconds": 14.4,
+      "input_tokens": 16069,
+      "cached_tokens": 0,
+      "output_tokens": 1539,
+      "reasoning_tokens": 89,
+      "pages": [
+        "Invoice summary page 1 of 2 from Speedwell Estonia AS to Northwind Operations OÜ",
+        "Invoice detail page 2 of 2 for the same invoice"
+      ],
+      "printed": [
+        "223.98",
+        "30.54",
+        "254.52",
+        "24.00",
+        "0.00",
+        "65.26",
+        "30.67",
+        "0.80",
+        "35.41",
+        "8.50",
+        "43.91",
+        "12.92",
+        "3.10",
+        "16.02",
+        "0.68",
+        "0.16",
+        "0.84",
+        "25.18",
+        "6.04",
+        "31.22",
+        "0.04",
+        "0.20",
+        "9.25",
+        "2.22",
+        "11.47",
+        "31.77",
+        "7.62",
+        "39.39",
+        "11.20",
+        "2.69",
+        "13.89",
+        "0.01"
+      ],
+      "signals": [
+        {
+          "path": "payables[0]",
+          "kind": "masters",
+          "message": "supplier_id -; buyer -/-/-; payment_term_id -; po_id -; tax codes -, EST_000_VAT, EST_000_VAT, EST_000_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT, EST_240_VAT"
+        }
+      ],
+      "done": true
+    }
+  ]
+}
