@@ -74,7 +74,7 @@ class Solver:
     def solve(self, pdf: Path):
         """One conversation per document. The instructions and tool are identical for every document
         and the pages go in once, so later turns read them from the prompt cache and only the signals
-        are new."""
+        are new. Long retention matters: a first turn can think for longer than the default cache lives."""
         doc = pages(str(pdf))
         content = []
         for n, page in enumerate(doc, 1):
@@ -90,7 +90,7 @@ class Solver:
             response = self.client.responses.create(
                 model=self.model, instructions=PROMPT, tools=[SUBMIT], tool_choice="required",
                 parallel_tool_calls=False, input=items, previous_response_id=previous,
-                reasoning={"effort": effort}, prompt_cache_key="bookable-payable")
+                reasoning={"effort": effort}, prompt_cache_key="bookable-payable", prompt_cache_retention="24h")
             call = next(o for o in response.output if o.type == "function_call")
             submission = json.loads(call.arguments)
             unchanged = submission == last
