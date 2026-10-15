@@ -84,7 +84,7 @@ class Solver:
                 content.append({"type": "input_text", "text": f"Text layer of page {n}:\n{page['text']}"})
         content.append({"type": "input_text", "text": TASK.format(n=len(doc))})
 
-        items, previous, trace = [{"role": "user", "content": content}], None, []
+        items, previous, last, trace = [{"role": "user", "content": content}], None, None, []
         for turn, effort in enumerate(EFFORT):
             started = time.time()
             response = self.client.responses.create(
@@ -93,14 +93,15 @@ class Solver:
                 reasoning={"effort": effort}, prompt_cache_key="bookable-payable")
             call = next(o for o in response.output if o.type == "function_call")
             submission = json.loads(call.arguments)
-            record, signals, done = review(submission, self.masters, turn, final=turn == len(EFFORT) - 1)
+            unchanged = submission == last
+            record, signals, done = review(submission, self.masters, turn, final=unchanged or turn == len(EFFORT) - 1)
             usage = response.usage
             trace.append({"turn": turn + 1, "effort": effort, "seconds": round(time.time() - started, 1),
                           "input_tokens": usage.input_tokens, "cached_tokens": usage.input_tokens_details.cached_tokens,
                           "output_tokens": usage.output_tokens, "reasoning_tokens": usage.output_tokens_details.reasoning_tokens,
                           "pages": submission["pages"], "printed": submission["printed"], "signals": signals, "done": done})
-            if done:
+            if done or unchanged:
                 break
-            previous = response.id
+            previous, last = response.id, submission
             items = [{"type": "function_call_output", "call_id": call.call_id, "output": json.dumps({"signals": signals})}]
         return record, trace
