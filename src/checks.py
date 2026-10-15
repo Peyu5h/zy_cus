@@ -116,6 +116,17 @@ def evaluate(expr):
     return value(ast.parse(expr, mode="eval").body)
 
 
+def parts(tree):
+    """Magnitudes of every sub-expression of a formula."""
+    found = set()
+    for n in ast.walk(tree):
+        try:
+            found.add(magnitude(value(n)))
+        except (ValueError, ZeroDivisionError, TypeError):
+            pass
+    return found
+
+
 def relative(path):
     return re.sub(r"^payables\[\d+\]\.", "", path.replace(" ", ""))
 
@@ -133,18 +144,19 @@ def check_derived(derived, payables):
     for i, d in enumerate(derived):
         where = f"payables[{d['payable']}].{relative(d['path'])}"
         try:
-            value, result = str(resolve(payables[d["payable"]], d["path"])), evaluate(d["expr"])
+            held, result = str(resolve(payables[d["payable"]], d["path"])), evaluate(d["expr"])
         except (LookupError, TypeError, ValueError, SyntaxError, ZeroDivisionError):
             found.append(signal(f"derived[{i}]", "derivation", f"cannot evaluate {d['expr']!r} against {where}"))
             continue
-        places = len(value.partition(".")[2])
-        if not NUMBER.fullmatch(value) or abs(abs(result) - abs(float(value))) > 0.5 * 10 ** -places + 1e-9:
-            found.append(signal(f"derived[{i}]", "derivation", f"{d['expr']} = {result:.6g}, but {where} is {value!r}"))
+        places = len(held.partition(".")[2])
+        if not NUMBER.fullmatch(held) or abs(abs(result) - abs(float(held))) > 0.5 * 10 ** -places + 1e-9:
+            found.append(signal(f"derived[{i}]", "derivation", f"{d['expr']} = {result:.6g}, but {where} is {held!r}"))
     return found
 
 
 def check_grounding(payables, printed, derived):
-    """Every number is a printed figure or declared as computed from printed figures."""
+    """Every number is a printed figure or declared as computed from printed figures, and no
+    computation leans on the gross it is meant to reproduce."""
     known = {magnitude(x) for x in printed if NUMBER.fullmatch(x.strip())} | {0.0, 1.0}
     declared = {(d["payable"], relative(d["path"])) for d in derived}
     found = []
@@ -164,6 +176,11 @@ def check_grounding(payables, printed, derived):
         if extra := sorted(operands - known - {100.0}):
             found.append(signal(f"derived[{i}]", "ungrounded",
                                 f"{d['expr']} uses {', '.join(f'{x:g}' for x in extra)}, not among the printed figures listed"))
+        line_figures = {magnitude(li[f]) for li in p["line_items"] for f in ("unit_price", "total") if NUMBER.fullmatch(li[f])}
+        target = magnitude(p["gross_total"]) if NUMBER.fullmatch(p["gross_total"]) else None
+        if relative(d["path"]) != "gross_total" and target in parts(tree) and target not in line_figures:
+            found.append(signal(f"derived[{i}]", "circular",
+                                f"{d['expr']} works from {p['gross_total']}, the gross_total the ERP's rebuild is checked against"))
     return found
 
 
